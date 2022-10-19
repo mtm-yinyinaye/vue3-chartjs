@@ -1,7 +1,8 @@
 <template>
   <div class="hello">
+    <h2>Bar Chart</h2>
     <div class="bar_chart">
-      <h1>Multiple Bar Chart</h1>
+      <h3>Multiple Bar Chart</h3>
       <Bar
         :chart-options="chartOptions"
         :chart-data="multiplechartData"
@@ -11,7 +12,7 @@
       />
     </div>
     <div class="bar_chart">
-      <h1>Single Bar Chart</h1>
+      <h3>Single Bar Chart</h3>
       <Bar
         :chart-options="chartOptions"
         :chart-data="singleChartData"
@@ -21,7 +22,7 @@
       />
     </div>
     <div class="bar_chart">
-      <h1>Horizontal Bar Chart with Disable Tooltip and Hide Legend</h1>
+      <h3>Horizontal Bar Chart with Disable Tooltip and Hide Legend</h3>
       <Bar
         :chart-options="horizontalChartOptions"
         :chart-data="horizontalSingleChartData"
@@ -202,6 +203,7 @@ export default defineComponent({
   display: flex,
   justify-content: space-around,
   flex-wrap: wrap,
+  text-align: center,
 
   .bar_chart
     width: 450px,

@@ -1,26 +1,16 @@
 <template>
-  <HelloWorld />
+  <Header />
+  <Nav />
+  <router-view />
 </template>
 
-<script lang="ts">
-import { defineComponent } from 'vue';
-import HelloWorld from './components/BarChart.vue';
-
-export default defineComponent({
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-});
+<script setup lang="ts">
+import { defineComponent } from "vue";
+import Header from "./components/common/Header.vue";
+import Nav from "./components/common/NavBar.vue";
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+<style lang="sass">
+#app
+  background-color: rgba(0, 0, 0, 0.1),
+  min-height: calc(100vh - 87px),
 </style>

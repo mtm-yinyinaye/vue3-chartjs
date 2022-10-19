@@ -37,5 +37,12 @@ https://github.com/ashiguruma/patternomaly
 
 ```
 Dataset Configuration : https://www.chartjs.org/docs/latest/general/data-structures.html
-interactions: https://www.chartjs.org/docs/latest/configuration/interactions.html#modes
+interactions : https://www.chartjs.org/docs/latest/configuration/interactions.html#modes
+easing : https://www.chartjs.org/docs/latest/configuration/animations.html#easing
+mixed chart : https://www.chartjs.org/docs/latest/charts/mixed.html
+font : https://www.chartjs.org/docs/latest/general/fonts.html
+tooltip : https://www.chartjs.org/docs/latest/configuration/tooltip.html
+tick : https://www.chartjs.org/docs/latest/axes/#tick-configuration
+
+https://picsum.photos/
 ```
